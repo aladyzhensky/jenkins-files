@@ -1,9 +1,9 @@
 ---
 applications:
-- name: jenkins 
+- name: jenkins-example
   memory: 1024M 
   instances: 1
-  host: jenkins-shmenkins
+  host: jenkins-example
   domain: cfapps.io
   path: jenkins.war
   env: 
